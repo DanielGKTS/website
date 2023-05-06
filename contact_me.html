@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+    <head> 
+        <meta charset="utf-8">
+        <meta name = "Viewport" content="width=device-width", initial-scale="1.0">
+        <title>Contact</title>
+
+        <!-- CSS Style -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+        <style>
+
+            .center {
+              text-align: center;
+              margin-bottom: 15px;
+            }
+            
+            .center2 {
+              text-align: center;
+              margin-bottom: 50px;
+            }   
+            
+            footer {
+            text-align: center;
+            padding: 5px;
+            background-color: rgb(230, 230, 230);
+            color: rgb(113, 113, 113);
+            }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="#">Daniel Kim</a>
+                    </div>
+                    <ul class="nav navbar-nav">
+                        <li><a href="http://eve.kean.edu/~kimdani/website/home.html">Home</a></li>
+                        <li><a href="http://eve.kean.edu/~kimdani/website/about_me.html">About me</a></li>
+                        <li class="active"><a href="http://eve.kean.edu/~kimdani/website/contact_me.html">Contact me</a></li>
+                        <li><a href="http://eve.kean.edu/~kimdani/website/my_work.html">My Work</a></li>
+                        <li><a href="http://eve.kean.edu/~kimdani/website/my_store.html">My Store</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <div class="center2">
+            <h1>Contact Me</h1>
+            <form method="post" action="contact-form-process.php">
+                Name: <input type="text" id="Name" name="Name" required><br><br> 
+                E-mail: <input type="email" id="Email" name="Email" required><br><br>
+                Message: <textarea id="Message" name="Message" rows="6" cols="30" maxlength="2500" required> </textarea><br><br> 
+                <input type="submit" name="submit" value="Submit"> 
+            </form>
+        </div>
+
+        <footer>
+            <p>2023 Daniel Kim<br>
+            <a href="http://eve.kean.edu/~kimdani/website/resume.pdf" target="_blank">Resume</a><br>
+            <a href="mailto:kimdani@kean.edu" target="_blank">kimdani@kean.edu</a></p>
+        </footer>
+    </body>
+</html>
